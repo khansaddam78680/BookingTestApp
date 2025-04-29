@@ -26,6 +26,23 @@ dotnet run --project BookingTestApp
 dotnet test
 ```
 
+## Notes
+- In AutoSeedData folder we have members.csv and inventory.csv which is added to the solution as a part of creating tables and seeding data to created tables.
+- After app runs we can directly check the API endpoint to get all pre-added members and inventory. We also have endpoint to check all the bookings.
+
+```bash
+# Endpoint to check all members
+api/data/getAllMembers
+
+# Endpoint to check all inventory items
+api/data/getAllInventory
+
+# Endpoint to check all members
+api/data/getAllBookings
+```
+
+Use above endpoints to directly test the app.
+
 ## Deployment
 
 ```bash
